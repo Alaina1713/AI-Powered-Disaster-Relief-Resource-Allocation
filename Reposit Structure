@@ -1,0 +1,16 @@
+backend/
+  app.py
+  requirements.txt
+  data/sample_disasters.csv
+frontend/
+  public/index.html
+  src/App.jsx
+  src/index.js
+  styles.css
+README.md
+# Backend runs at 👉 http://localhost:5001
+
+cd frontend
+npm install
+npm start
+# Frontend runs at 👉 http://localhost:3000
