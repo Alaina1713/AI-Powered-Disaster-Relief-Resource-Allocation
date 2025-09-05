@@ -205,3 +205,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Local datasets
+data/
+*.csv
+*.json
+
+# Machine learning models
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+checkpoints/
+
+# Logs / outputs
+*.log
+logs/
+output/
+
+# Frontend / Node.js (if any)
+node_modules/
+package-lock.json
+yarn.lock
+dist/
+
